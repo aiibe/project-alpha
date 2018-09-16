@@ -42,5 +42,10 @@ export const Styles = StyleSheet.create({
 	desc: {
 		color: Themes.royale.queenblue,
 		fontSize: 14
+	},
+	headerTitle: {
+		fontSize: 16,
+		color: Themes.royale.white,
+		fontWeight: 'bold'
 	}
 })

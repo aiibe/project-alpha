@@ -18,7 +18,8 @@ class MainItem extends PureComponent {
 
 	// Will show item on ProductScreen
 	_navigate(){
-		this.props.navigation.navigate("Product", {id: this.props.item.id})
+		const item = this.props.item
+		this.props.navigation.navigate("Product", {id: item.id, title: item.title})
 	}
 
 	render(){
